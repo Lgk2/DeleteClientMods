@@ -1,22 +1,21 @@
 import os
 import glob
 
-client_mods = ["soundsystemreloader", "FpsReducer", "jeivillagers", "dynamistics", "JustEnoughReactors",
-               "just-enough-harvestcraft", "gendustryjei", "tinkersjei", "jeiintegration", "fluidict",
-               "jeibees", "just-enough-brewcraft", "jepb", "jetif", "ThaumicJEI", "JustEnoughEnergistics",
-               "tc6aspects4jei", "JustEnoughResources", "JEROreIntegration", "modnametooltip", "Toast Control",
-               "InventoryHud", "FullscreenWindowed", "InvMove", "lootcapacitortooltips", "DynamicSurroundings",
-               "DynamicSurroundingsHuds", "AmbientSounds", "MoBends", "BetterFps", "Controlling", "BetterAdvancements",
-               "WorldSelectionAdvanced", "BetterFoliage", "lesslag", "TieredTooltips", "ColouredTooltips", "Unifine",
-               "ShoulderSurfing", "LoadingScreens", "Tips", "ScreenshotToClipboard", "SplashAnimation",
-               "shutupmodelloader", "NonUpdate", "classicbar", "ClientTweaks", "shapeselector", "OldJavaWarning",
-               "particleculling", "CTM-MC", "ChatCopier", "WHAT", "ikwid", "SmoothFont", "itlt", "clearwater",
-               "StuffASockInIt", "EntityCulling", "MouseTweaks", "JustEnoughCharacters", "MAGE", "MineMenu",
-               "BetterPlacement", "ChatFlow", "potiondescriptions", "hiddenarmor", "InGameInfoXML", "memorycleaner",
-               "InGameAccountSwitcher", "RealFirstPerson2", "ProportionalDestructionParticles", "PackModeMenu",
-               "Modpack Configuration Checker", "MenuMobs", "MainMenuScale", "ResourceLoader", "scalingguis",
-               "CustomLoadingScreen", "CustomBackgrounds", "CustomSkinLoader_Forge", "CustomMainMenu", "Blur",
-               "InvMove"]
+client_mods = ["AmbientSounds", "BetterAdvancements", "BetterFoliage", "BetterFps", "BetterPlacement", "Blur",
+               "ChatCopier", "ChatFlow", "classicbar", "clearwater", "ClientTweaks", "ColouredTooltips", "Controlling",
+               "CTM-MC", "CustomBackgrounds", "CustomLoadingScreen", "CustomMainMenu", "CustomSkinLoader_Forge",
+               "DynamicSurroundings", "DynamicSurroundingsHuds", "dynamistics", "EntityCulling", "fluidict", "FpsReducer",
+               "FullscreenWindowed", "gendustryjei", "hiddenarmor", "ikwid", "InGameAccountSwitcher", "InGameInfoXML",
+               "InventoryHud", "InvMove", "InvMove", "itlt", "jeibees", "jeiintegration", "jeivillagers", "jepb",
+               "JEROreIntegration", "jetif", "just-enough-brewcraft", "just-enough-harvestcraft", "JustEnoughCharacters",
+               "JustEnoughEnergistics", "JustEnoughReactors", "JustEnoughResources", "lesslag", "LoadingScreens",
+               "lootcapacitortooltips", "MAGE", "MainMenuScale", "memorycleaner", "MenuMobs", "MineMenu", "MoBends",
+               "modnametooltip", "Modpack Configuration Checker", "MouseTweaks", "NonUpdate", "OldJavaWarning",
+               "PackModeMenu", "particleculling", "potiondescriptions", "ProportionalDestructionParticles",
+               "RealFirstPerson2", "ResourceLoader", "scalingguis", "ScreenshotToClipboard", "shapeselector",
+               "ShoulderSurfing", "shutupmodelloader", "SmoothFont", "soundsystemreloader", "SplashAnimation",
+               "StuffASockInIt", "tc6aspects4jei", "ThaumicJEI", "TieredTooltips", "tinkersjei", "Tips", "Toast Control",
+               "Unifine", "WHAT", "WorldSelectionAdvanced"]
 
 count = 0
 
